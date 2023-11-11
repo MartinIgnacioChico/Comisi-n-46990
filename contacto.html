@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header id="top" class="borde-redondo">
+        <nav class="navegacion"><!-- Usar etiquetas semanticas -->
+            <div class="logo_container">
+            <img 
+                src="./img/logo cuadrado.jpg" 
+                alt="Logo Floppy" 
+                class="logo"/>
+            
+            </div>
+            
+            <ul class="navegacion_nav">
+                <li class="nav__item"><a href="./index.html">inicio</a> </li>
+                <li class="nav__item"><a href="./sucursales.html">sucursales</a></li>
+                <li class="nav__item"><a href="./nosotros.html">nosotros</a></li>
+                <li class="nav__item"><a href="./productos.html">productos</a></li>
+                <li class="nav__item"><a href="./contacto.html">contacto</a></li>
+            </ul>
+            
+            </nav>
+        </header>
+    <h1>Contacto</h1>
+    <section>
+        <!--fromulario -->
+    <form action="" method="post" enctype="application/x-www-form-urlencoded">
+
+        <label for="nombre">Nombre/empresa</label>    
+        <input type="text" id="nombre" name="nombre" placeholder="Igresar nombre/empresa">
+        <label for="mail">Mail</label>    
+        <input type="text" id="mail" name="mail" placeholder="Igresar mail">
+        <label for="teléfono">Némero de contacto</label>    
+        <input type="text" id="teléfono" name="teléfono" placeholder="Igresar número de teléfono">
+        <label for="mensaje">Mensaje</label>    
+        <input type="text" id="mensaje" name="mensaje" placeholder="Igresar un mensaje">
+        <!--cambiar ID Y NAME-->
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </form>
+    </section>
+    <a href="#top">Arriba</a>
+</body>
+</html>
